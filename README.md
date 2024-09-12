@@ -1,12 +1,11 @@
 # Documentação do Projeto - Cantina Digital
 
 ## Grupo 04
-- keone keizo aguilar oliveira - 4935676116
-- Vinicius Holtz Mendes Vismara - 4932712740
 - Rafael Gonçalves dos Santos-33598495
+- Vinicius Holtz Mendes Vismara - 4932712740
 - guilherme cezar goes - 4933250278
 - Vitor da Silva Ribeiro - 32614705
-
+- keone keizo aguilar oliveira - 4935676116
 
 ## Introdução:
 
