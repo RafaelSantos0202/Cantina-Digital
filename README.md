@@ -3,9 +3,9 @@
 ## Grupo 04
 - Rafael Gonçalves dos Santos-33598495
 - Vinicius Holtz Mendes Vismara - 4932712740
-- guilherme cezar goes - 4933250278
+- Guilherme Cezar Goes - 4933250278
 - Vitor da Silva Ribeiro - 32614705
-- keone keizo aguilar oliveira - 4935676116
+- Keone Keizo Aguilar Oliveira - 4935676116
 
 ## Introdução:
 
@@ -54,8 +54,28 @@ O projeto será desenvolvido seguindo a metodologia ágil SCRUM. O SCRUM foi esc
 
 - Banco de Dados: Para armazenar as informações dos usuários e dos medicamentos, será utilizado um banco de dados relacional ou NoSQL, dependendo das necessidades específicas do projeto. Opções como MongoDB, MySQL ou PostgreSQL serão consideradas, levando em conta requisitos de escalabilidade, desempenho e facilidade de uso.
 
+## Design Patterns Utilizados:
+
+### Para o desenvolvimento do aplicativo, serão ultilizadas os seguintes designs patterns:
+
+### Padrões Estruturais:
+
+- Facade: Facilita o acesso às funcionalidades principais, como cadastro, visualização do cardápio e pagamento, escondendo a complexidade do sistema. Um Facade unificado permite que os usuários interajam com o app sem lidar com os detalhes internos de cada módulo.
+
+- Decorator: Este padrão pode ser aplicado para adicionar funcionalidades a produtos específicos do menu. Por exemplo, uma bebida pode ser personalizada com adicionais como gelo, cobertura extra ou sabores extras, sem a necessidade de modificar as classes de bebidas originais.
+
+### Padrões Criacionais:
+
+- Factory Method: Usado para criar diferentes tipos de pedidos no app, como pedido de lanches, bebidas ou produtos específicos, sem especificar as classes concretas. Isso permite que o aplicativo gerencie múltiplos tipos de pedidos com uma única interface, facilitando a adição de novos tipos no futuro.
+
+- Builder: Útil para construir pedidos complexos, como um combo personalizado com lanche, bebida e sobremesa. O padrão Builder pode ajudar a criar diferentes tipos de pedidos passo a passo, tornando o código mais organizado e o processo de montagem do pedido mais flexível. 
+
+### Padrões Comportamentais:
+
+- Observer: Ideal para implementar o sistema de notificações. Quando um pedido é atualizado no servidor, o app pode notificar automaticamente o usuário assim que o pedido estiver pronto, mantendo-o informado em tempo real.
+
+- Command: Cada ação do usuário, como criar um pedido, adicionar itens ao carrinho ou confirmar um pagamento, pode ser encapsulada como um Command, o que permite gerenciar, desfazer ou agendar comandos de forma mais organizada e flexível.
+
 ## Conclusão:
 
 A Cantina Digital surge como uma solução inovadora para modernizar e agilizar o processo de pedidos na cantina da faculdade. Com um design intuitivo, funcionalidades práticas e o uso de uma metodologia de desenvolvimento ágil, o aplicativo irá transformar a maneira como estudantes e funcionários interagem com a cantina, oferecendo conveniência, rapidez e evitando aglomerações.
-
-
